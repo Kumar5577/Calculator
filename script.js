@@ -14,7 +14,7 @@ Array.from(btns).forEach((btn)=>{
 
         }
         else if(e.target.value=='DE'){
-            string = string.slice(0,-1);
+            string = document.querySelector(".text").value.slice(0,-1);
             document.querySelector(".text").value = string;
         }
         else{
